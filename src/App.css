@@ -40,3 +40,18 @@ body{
     color:var(--primary-white);
     background-color: var(--primary-blue);
 }
+
+.p-blue-btn{
+    color:var(--primary-white);
+    background-color: var(--primary-blue);
+}
+.p-blue-btn:hover{
+    color: var(--primary-blue);
+    background-color: var(--primary-white);
+    border-color: var(--primary-blue);
+}
+
+.welcome-cover{
+    height: 90vh;
+    /* background-color:bisque */
+}
