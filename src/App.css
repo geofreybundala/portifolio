@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+:root {
+    --primary-white:#FDFDFD;
+    --primary-blue:#007BDD;
+    --primary-black:#302B29
+  }
 
 body{
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: #DEDEDE;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: var(--primary-white);
+    font-family: 'Alice', serif;
+    color: var(--primary-black);
+}
+
+.btn-round{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.563rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-hire {
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.btn-hire:hover{
+    color:var(--primary-white);
+    background-color: var(--primary-blue);
 }
