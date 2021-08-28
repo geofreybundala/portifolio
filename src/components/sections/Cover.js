@@ -1,5 +1,7 @@
 import React from 'react'
 import MyCover from '../../assets/images/me.png'
+import { AiOutlineLinkedin , AiOutlineGithub} from 'react-icons/ai';
+import { FiTwitter } from 'react-icons/fi';
 
 export const Cover = () => {
     return (
@@ -14,7 +16,13 @@ export const Cover = () => {
                <p className="text-gray">
                    I'm fullstack developer based in Tanzania,<br/>I change Ideas into software
                </p>
-               <button className="btn btn-round p-blue-btn">See My works</button>
+
+               <div className="mx-4 mb-2 social-link d-flex justify-content-between">
+                    <span><FiTwitter size="23px"/></span>
+                    <span><AiOutlineGithub size="23px"/></span>
+                    <span><AiOutlineLinkedin size="23px"/></span>
+               </div>
+               <button className="btn btn-round p-blue-btn">Download my Resume</button>
            </div>
 
           

@@ -57,7 +57,7 @@ body{
 
 .welcome-cover{
     height: 90vh;
-    /* background-color:bisque */
+    background-color:rgb(252, 244, 234)
 }
 
 .cover-image{
@@ -65,5 +65,9 @@ body{
 }
 
 .cover-image img{
+    height: 80vh;
+}
 
+.social-link{
+    max-width: 6rem;
 }
