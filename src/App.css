@@ -5,14 +5,16 @@
     --primary-blue:#007BDD;
     --primary-black:#302B29;
     --primary-gray:#808080;
+    --background-color:#353535;
   }
 
 body{
     margin-left: 5rem;
     margin-right: 5rem;
-    background-color: var(--primary-white);
+    background-color: var( --background-color);
     font-family: 'Alice', serif;
-    color: var(--primary-black);
+    color: var(--primary-white);
+
 }
 
 .btn-round{
@@ -31,9 +33,9 @@ body{
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.text-gray{
+/* .text-gray{
     color:var(--primary-gray)
-}
+} */
 
 .btn-hire {
     color: var(--primary-blue);
@@ -57,7 +59,7 @@ body{
 
 .welcome-cover{
     height: 90vh;
-    background-color:rgb(252, 244, 234)
+    background-color: var(--primary-black)
 }
 
 .cover-image{
@@ -75,4 +77,5 @@ body{
 .article-card{
     color: var(--primary-white);
     background-color: var(--primary-black);
+    margin: 0.5px;
 }

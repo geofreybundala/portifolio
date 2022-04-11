@@ -1,33 +1,20 @@
-import React from 'react'
+import { Articles } from '../data/articles';
 
 const Article = () => {
-  return (
-    <div className='container pt-5'>
-        <h1 className='h'>My Articles</h1>
-
-        <div className='row'>
-            <div className='col-md-3 p-3 article-card m-1'> 
-            <div>Article Title</div>
-            <div>article summary</div>
-            </div>
-
-            <div className='col-md-3 p-4 article-card m-1'> 
-            <div>Article Title</div>
-            <div>article summary</div>
-            </div>
-
-            <div className='col-md-3 p-4 article-card m-1'> 
-            <div>Article Title</div>
-            <div>article summary</div>
-            </div>
-
-            <div className='col-md-3 p-4 article-card m-1'> 
-            <div>Article Title</div>
-            <div>article summary</div>
-            </div>
-        </div>
+  const articleList = Articles.map((article) => (
+    <div className="col-md-12 p-3 article-card mb-2">
+      <div>{article.title}</div>
+      <div>{article.description}</div>
     </div>
-  )
-}
+  ));
 
-export default Article
+  return (
+    <div className="container pt-5">
+      <h1 className="h">My Articles</h1>
+
+      <div className="row">{articleList}</div>
+    </div>
+  );
+};
+
+export default Article;
