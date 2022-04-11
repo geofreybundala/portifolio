@@ -14,7 +14,7 @@ export const Cover = () => {
                <h5 className='text-gray'>Hello, My name is </h5>
                <h3>Geofrey Bundala</h3>
                <p className="text-gray">
-                   I'm fullstack developer based in Tanzania,<br/>I change Ideas into software
+                   I'm fullstack developer based in Tanzania,<br/>Let`s create build together 🤝
                </p>
 
                <div className="mx-4 mb-2 social-link d-flex justify-content-between">
