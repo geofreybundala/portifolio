@@ -1,8 +1,7 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-import Home from './components/Home'
+import Home from './pages/Home'
 
 function App() {
   return (

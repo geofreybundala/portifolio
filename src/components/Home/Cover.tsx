@@ -1,4 +1,3 @@
-import React from 'react'
 import MyCover from '../../assets/images/me.png'
 import { AiOutlineLinkedin , AiOutlineGithub} from 'react-icons/ai';
 import { FiTwitter } from 'react-icons/fi';
