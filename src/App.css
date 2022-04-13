@@ -9,8 +9,8 @@
   }
 
 body{
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
     background-color: var( --background-color);
     font-family: 'Alice', serif;
     color: var(--primary-white);
@@ -62,13 +62,14 @@ body{
     background-color: var(--primary-black)
 }
 
-.cover-image{
+.cover{
     height: 80vh;
 }
 
-.cover-image img{
+.cover img{
     height: 80vh;
 }
+
 
 .social-link{
     max-width: 6rem;
@@ -79,3 +80,19 @@ body{
     background-color: var(--primary-black);
     margin: 0.5px;
 }
+
+
+@media screen and (min-width: 480px) {
+    body{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        background-color: var( --background-color);
+        font-family: 'Alice', serif;
+        color: var(--primary-white);
+    
+    }
+
+    .cover-image {
+        display: hidden;
+    }
+  }
