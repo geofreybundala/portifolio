@@ -1,9 +1,16 @@
-import React from 'react'
+import { ArticleList } from '../../data/articles';
 
-const Article = () => {
+const Articles = () => {
+  const articleList = ArticleList.map((article) => (
+    <div className="col-md-12 p-3 article-card mb-2">
+      <div>{article.title}</div>
+      <div>{article.description}</div>
+    </div>
+  ));
+
   return (
-    <div>Article</div>
+    <>{articleList}</>
   )
 }
 
-export default Article
+export default Articles

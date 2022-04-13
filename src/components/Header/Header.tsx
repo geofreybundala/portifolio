@@ -7,7 +7,7 @@ const Header = () => {
                 GB
             </button>
             <span>
-                <button className="btn-round btn-hire my-2 my-sm-0">Hire me!</button>
+                <button className="btn-round btn-hire my-2 my-sm-0">Projects</button>
             </span>
         </nav>
     )
