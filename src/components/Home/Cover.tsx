@@ -18,6 +18,8 @@ export const Cover = () => {
           Let`s create together 🤝
         </p>
 
+        
+
         <div className="mx-4 mb-2 social-link d-flex justify-content-between">
           <span>
             <FiTwitter size="23px" />

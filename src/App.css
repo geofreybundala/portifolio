@@ -12,6 +12,8 @@ body{
     /* margin-left: 2rem;
     margin-right: 2rem; */
     background-color: var( --background-color);
+    background-image: url('../src/assets/images/background.svg');
+    background-repeat: no-repeat, repeat;
     font-family: 'Alice', serif;
     color: var(--primary-white);
 
